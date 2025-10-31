@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>WhatsApp Chicken — Preview</title>
 
+  <!-- Open Graph (required for Discord/most link-previewers) -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="WhatsApp Chicken">
   <meta property="og:description" content="A silly image preview for testing Discord link previews.">
@@ -12,11 +13,13 @@
   <meta property="og:image" content="https://gboipudsbsuobu0gojshg.github.io/Jarbeefis/whatsappchicken.png">
   <meta property="og:image:alt" content="whatsappchicken.png">
 
+  <!-- Twitter card fallback (used by some services) -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="WhatsApp Chicken">
   <meta name="twitter:description" content="A silly image preview for testing Discord link previews.">
   <meta name="twitter:image" content="https://gboipudsbsuobu0gojshg.github.io/Jarbeefis/whatsappchicken.png">
 
+  <!-- classic image_src link (helps older crawlers) -->
   <link rel="image_src" href="https://gboipudsbsuobu0gojshg.github.io/Jarbeefis/whatsappchicken.png">
 
   <style>
@@ -27,11 +30,9 @@
 </head>
 <body>
   <h1>WhatsApp Chicken — Preview page</h1>
-  <!-- This <img> is for humans who open the page in a browser -->
   <img src="whatsappchicken.png" alt="whatsappchicken">
 
-  <p class="note">When you share this page's URL on Discord, Discord's crawler will read the Open Graph meta tags in the <code>&lt;head&gt;</code> and (if everything is accessible) show the image as the link preview.
-  Make sure you replaced <code>YOUR_GITHUB_PAGES_URL</code> above with your actual GitHub Pages URL before publishing.</p>
+  <p class="note">When you share this page's URL on Discord, Discord's crawler will read the Open Graph meta tags in the <code>&lt;head&gt;</code> and (if everything is accessible) show the image as the link preview.</p>
 
   <p class="note">If the preview doesn't appear or is stale, try posting the URL again with <code>?nocache=1</code> appended to force Discord to re-fetch the metadata.</p>
 </body>
